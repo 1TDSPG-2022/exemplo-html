@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Yellowtail&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+    background-color: dodgerblue;
+}
+
+h1, h2, h3{
+    font-family: 'Asap', sans-serif;
+    color: #000;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Yellowtai', serif;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo{
+	background-image: url('../img/fundo-pc.jpg');
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+#topo h1{
+	text-align: center;
+}
+#topo p{
+	text-align: justify;
+}
+#topo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
+	display: inline;
+}
