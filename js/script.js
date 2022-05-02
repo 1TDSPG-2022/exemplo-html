@@ -8,7 +8,7 @@ function exemplo() {
     return sobrenome
 }
 
-console.log('Nome completo ' + nome + exemplo())
+console.log('Nome completo : ' + nome + exemplo())
 
 const logoTit = document.querySelector("#tit-logo")
 logoTit.innerHTML = "Teste"
